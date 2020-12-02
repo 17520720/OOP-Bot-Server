@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var vntk = require('vntk');
+
 const fs = require('fs');
 var classifier = new vntk.BayesClassifier();
 
@@ -33,7 +34,7 @@ const UserMessage = require('./models/UserMessage');
 const BotMessage = require('./models/BotMessage');
 const { json } = require('body-parser');
 const TrainingData = require('./models/TrainingData');
-const { updateOne, db } = require('./models/UserMessage');
+const { updateOne } = require('./models/UserMessage');
 
 //connect database
 mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.net/OOPBot?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}, err => {
@@ -172,5 +173,4 @@ app.post("/api/learn", function(req, res){
      BotMessage.findOne({label: _label}, function(err, obj){
           res.json(obj);
      });
-
 });
