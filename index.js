@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 var vntk = require('vntk');
-
 const fs = require('fs');
 var classifier = new vntk.BayesClassifier();
 
@@ -34,7 +33,7 @@ const UserMessage = require('./models/UserMessage');
 const BotMessage = require('./models/BotMessage');
 const { json } = require('body-parser');
 const TrainingData = require('./models/TrainingData');
-const { updateOne } = require('./models/UserMessage');
+const { updateOne, db } = require('./models/UserMessage');
 
 //connect database
 mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.net/OOPBot?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}, err => {
@@ -47,7 +46,7 @@ mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.n
 });
 
 app.get("/", function(req, res){
-     res.render("home"); 
+     res.render("home");
 });
 
 app.get("/learn", function(req, res){
@@ -69,23 +68,23 @@ app.post("/training" , function(req, res){
           if (data[i][0] == " "){
                let temp = data[i].split('');
                temp.splice(0, 1);
-               
+
                data[i] = temp.join('');
           }
 
           data[i] = data[i].toLowerCase();
      }
 
-     //Tạo model 
+     //Tạo model
      let newData = new TrainingData({
           label: req.body.label,
           dataTraining: data
      });
-     
+
      console.log(newData);
      //save model vào database
      TrainingData.findOne({label: newData}, function(err, res){
-          
+
      });
 
      newData.save(function(err){
@@ -111,7 +110,7 @@ app.post("/learn" , function(req, res){
           if (keywordList[i][0] == " "){
                let temp = keywordList[i].split('');
                temp.splice(0, 1);
-               
+
                keywordList[i] = temp.join('');
           }
 
@@ -131,14 +130,15 @@ app.post("/learn" , function(req, res){
           }
      }
 
-     //Tạo model 
+     //Tạo model
      let newBotMessage = new BotMessage({
           title: req.body.title,
           keywords: keywordList,
           label: req.body.label,
           messageContent: messContentList,
+          multiMess: req.body.multiMess,
      });
-     
+
      console.log(newBotMessage);
      //save model vào database
      newBotMessage.save(function(err){
