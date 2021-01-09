@@ -1,0 +1,33 @@
+[
+    {
+        "label": "abstraction",
+        "contents": [
+            {"content": "Tính trừu tượng là gì?"},
+            {"content": "abstraction là gì trong oop?"},
+            {"content": "abstraction lập trình hướng đối tượng"},
+            {"content": "Tính trừu tượng trong lập trình hướng đối tượng"},
+            {"content": "Tính trừu tượng trong oop"},
+            {"content": "Tính trừu tượng"}
+        ]
+    },
+    {
+        "label": "encapsulation",
+        "contents": [
+            {"content": "Tính đóng gói là gì?"},
+            {"content": "encapsulation là gì trong oop?"},
+            {"content": "encapsulation lập trình hướng đối tượng"},
+            {"content": "Tính đóng gói trong lập trình hướng đối tượng"},
+            {"content": "Tính đóng gói trong oop"},
+            {"content": "Tính đóng gói"}
+        ]
+    },
+    {
+        "label": "exampleObject",
+        "contents": [
+            {"content": "Nêu ví dụ về đối tượng trong OOP"},
+            {"content": "Nêu ví dụ về đối tượng trong lập trình hướng đối tượng"},
+            {"content": "Ví dụ về đối tượng"},
+            {"content": "Ví dụ về object"}
+        ]
+    }   
+]
