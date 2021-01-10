@@ -1,0 +1,111 @@
+[
+    {
+    "dataTraining": [
+      "khái niệm private ",
+      "phạm vi truy xuất private trong hướng đối tượng ",
+      "private trong oop là gì?"
+    ],
+    "label": "private"
+  },{
+    "dataTraining": [
+      "khái niệm public ",
+      "public trong oop là gì ",
+      "phạm vi truy xuất public trong hướng đối tượng"
+    ],
+    "label": "public"
+  },{
+    "dataTraining": [
+      "nêu ví dụ về đối tượng trong oop ",
+      "nêu ví dụ về đối tượng trong lập trình hướng đối tượng ",
+      "ví dụ về đối tượng ",
+      "ví dụ về object"
+    ],
+    "label": "exampleObject"
+  },{
+    "dataTraining": [
+      "tính đóng gói là gì? ",
+      "encapsulation là gì trong oop?",
+      "encapsulation lập trình hướng đối tượng ",
+      "đóng gói trong lập trình hướng đối tượng ",
+      "đóng gói",
+      "tính đóng gói",
+      "tính đóng gói trong lập trình hướng đối tượng",
+      "đóng gói"
+    ],
+    "label": "encapsulation"
+  },{
+    "dataTraining": [
+      "trừu tượng là gì? ",
+      "abstraction là gì trong oop? ",
+      "abstraction lập trình hướng đối tượng ",
+      "tính trừu tượng trong lập trình hướng đối tượng ",
+      "trừu tượng trong oop ",
+      "tính trừu tượng",
+      "trừu tượng"
+    ],
+    "label": "abstraction"
+  },{
+    "dataTraining": [
+      "khái niệm oop ",
+      "oop là gì ",
+      "oop ",
+      "lập trình hướng đối tượng là gì? ",
+      "lập trình hướng đối tượng ",
+      "khái niệm lập trình hướng đối tượng"
+    ],
+    "label": "defineOOP"
+  },{
+    "dataTraining": [
+      "object là gì? ",
+      "object ",
+      "định nghĩa object ",
+      "đối tượng là gì? ",
+      "đối tượng trong oop ",
+      "đối tượng trong lập trình hướng đối tượng ",
+      "object trong lập trình hướng đối tượng ",
+      "object trong oop ",
+      "đối tượng"
+    ],
+    "label": "defineObject"
+  },{
+    "dataTraining": [
+      "tính kế thừa ",
+      "kế thừa",
+      "kế thừa là gì? ",
+      "kế thừa trong oop ",
+      "tính kế thừa trong lập trình hướng đối tượng ",
+      "inheritance ",
+      "inheritance trong oop ",
+      "inheritance trong hướng đối tượng"
+    ],
+    "label": "inheritance"
+  },{
+    "dataTraining": [
+      "tính đa hình ",
+      "đa hình trong oop ",
+      "tính đa hình trong lập trình hướng đối tượng ",
+      "đa hình ",
+      "đa hình là gì? ",
+      "polymorphism ",
+      "polymorphism là gì trong oop ",
+      "polymorphism trong hướng đối tượng"
+    ],
+    "label": "polymorphism"
+  },{
+    "dataTraining": [
+      "test ",
+      "test test"
+    ],
+    "label": "test"
+  },{
+    "dataTraining": [
+      "các ngôn ngữ lập trình hướng đối tượng ",
+      "ngôn ngữ lập trình hướng đối tượng phổ biến hiện nay ",
+      "ví dụ ngôn ngữ lập trình hướng đối tượng ",
+      "ngôn ngữ lập trình hướng đối tượng hiện nay ",
+      "ngôn ngữ oop ",
+      "ngôn ngữ oop hiện nay ",
+      "ngôn ngữ oop phổ biến"
+    ],
+    "label": "langCode"
+  }]

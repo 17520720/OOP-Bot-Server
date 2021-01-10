@@ -34,6 +34,8 @@ const BotMessage = require('./models/BotMessage');
 const { json } = require('body-parser');
 const TrainingData = require('./models/TrainingData');
 const { updateOne, db } = require('./models/UserMessage');
+const assert = require('assert');
+const { abort } = require('process');
 
 //connect database
 mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.net/OOPBot?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}, err => {
@@ -42,11 +44,13 @@ mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.n
      }
      else {
           console.log("Connected Successfully!");
+          insertData();
      }
 });
 
 app.get("/", function(req, res){
      res.render("home");
+
 });
 
 app.get("/learn", function(req, res){
@@ -173,3 +177,21 @@ app.post("/api/learn", function(req, res){
           res.json(obj);
      });
 });
+
+// insert bot data -------------
+
+async function insertData() {
+     let botData = fs.readFileSync('botMessages.json');
+     let trainData = fs.readFileSync('trainingData.json');
+
+     let botMesses = JSON.parse(botData);
+     console.log("Bot data is parsed!");
+     let train = JSON.parse(trainData);
+     console.log("Train data is parsed!");
+
+     await db.collection('botmessages').deleteMany({});
+     await db.collection('trainingdatas').deleteMany({});
+
+     BotMessage.insertMany(botMesses);
+     TrainingData.insertMany(train);
+}
