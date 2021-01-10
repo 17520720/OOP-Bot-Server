@@ -3,6 +3,7 @@ var app = express();
 var vntk = require('vntk');
 const fs = require('fs');
 var classifier = new vntk.BayesClassifier();
+var http = require('http');
 
 app.set("view engine", "ejs");
 app.set("views", "./views");
@@ -48,9 +49,19 @@ mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.n
      }
 });
 
+http.get("http://localhost:3000/api/training", (res) => {
+     TrainingData.find(function(err, obj) {
+          for (i = 0; i < obj.length; i++) {
+               for (j = 0; j < obj[i].dataTraining.length; j++) {
+                    classifier.addDocument(obj[i].dataTraining[j], obj[i].label);
+                    classifier.train();
+               }
+          }
+     });
+});
+
 app.get("/", function(req, res){
      res.render("home");
-
 });
 
 app.get("/learn", function(req, res){
