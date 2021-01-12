@@ -1,125 +1,425 @@
-[
-    {
-    "keywords": [
-      "private",
-      "riêng tư",
-      "phạm vi private"
-    ],
-    "title": "Khái niệm Private",
-    "label": "private",
-    "messageContent": [
-      "Private là một trong những phạm vi truy cập trong OOP. Các phần tử được khai báo private chỉ được truy xuất thông qua class (lớp) chứa nó."
-    ]
-  },{
-    "keywords": [
-      "public",
-      "công cộng",
-      "công khai",
-      "phạm vi public"
-    ],
-    "title": "Khái niệm Public",
-    "label": "public",
-    "messageContent": [
-      "Public là một trong những phạm vi truy cập trong OOP. Các phần tử được khai báo public thì được truy xuất ở mọi nơi bao gồm trong class (lớp) và ngoài class."
-    ]
-  },{
-    "keywords": [
-      "oop ",
-      "lập trình hướng đối tượng ",
-      "hướng đối tượng"
-    ],
-    "title": "Khái niệm OOP",
-    "label": "defineOOP",
-    "messageContent": [
-      "Lập trình hướng đối tượng (Object Oriented Programming, viết tắt: OOP) là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code trừu tượng hóa các đối tượng thực tế trong cuộc sống."
-    ]
-  },{
-    "keywords": [
-      "object ",
-      "đối tượng"
-    ],
-    "title": "Đối tượng là gì?",
-    "label": "defineObject",
-    "messageContent": [
-      "Đối tượng (Object) có thể là con người, điện thoại, máy tính, bạn và tôi... và điểm chung là đều gồm 2 thành phần chính là:  Thuộc tính (Attribute): là những thông tin, đặc điểm của đối tượng. Phương thức (Method): là những hành động mà đối tượng có thể thực hiện."
-    ]
-  },{
-    "messageContent": [
-      "Ví dụ chúng ta có đối tượng \"Con người\" =>  Thuộc tính sẽ bao gồm: chiều cao, cân nặng, trình độ học vấn,... Phương thức sẽ bao gồm: ăn, uống, chạy, nhảy,... ",
-      "Ví dụ chúng ta có đối tượng \"Yasuo\" =>  Thuộc tính sẽ bao gồm: sát thương vật lý, sát thương phép, giáp, kháng phép,... Phương thức sẽ bao gồm: di chuyển, xuất chiêu tường gió, trăn trối kẻ địch, ks,...",
-      "Ví dụ chúng ta có đối tượng \"Laptop\" => Thuộc tính sẽ bao gồm: tên máy, dung lượng ram, tên cpu,... Phương thức sẽ bao gồm: khởi động, tắt máy, diệt virus,..."
-    ],
-    "keywords": [
-      "example object, ví dụ đối tượng"
-    ],
-    "title": "Ví dụ đối tượng",
-    "label": "exampleObject"
-  },{
-    "messageContent": [
-      "Tính đóng gói (encapsulation) không cho phép người dùng trực tiếp tác động đến dữ liệu bên trong đối tượng mà phải thông qua các phương thức mà đối tượng cung cấp nhằm đảm bảo tính toàn vẹn của đối tượng.",
-      "https://i.postimg.cc/bJnZXWJh/dongGoi.jpg",
-      "Ví dụ như lớp Hình vuông thuộc tính cạnh được đặt private (riêng tư) vì thế không thể truy cập hay thay đổi này trực tiếp từ bên ngoài. Chỉ có thể sử dụng thuộc tính cạnh bằng các phương thức được định nghĩa nội bộ trong lớp như: phương thức getCanh() sẽ trả về giá trị của cạnh, phương thức setCanh() sẽ đặt lại giá trị của cạnh."
-    ],
-    "keywords": [
-      "tính đóng gói ",
-      "encapsulation"
-    ],
-    "title": "tính đóng gói",
-    "label": "encapsulation"
-  },{
-    "messageContent": [
-      "Tính trừu tượng (abstraction) chỉ ra tính năng của người dùng, các khái niệm được định nghĩa trong quá trình phát triển, bỏ qua những chi tiết triển khai bên trong. Tính trừu tượng cho phép người lập trình tập trung cốt lõi cần thiết của đối tượng thay vì quan tâm sự phức tạp bên trong hoặc cách nó hoạt động.",
-      "https://i.postimg.cc/9Qzqn5X0/truu-Tuong.jpg",
-      "Ví dụ như hình chúng ta có lớp Hình là một lớp trừu tượng và phương thức TinhChuVi không có định nghĩa cụ thể nhưng với 2 lớp con của nó thì được định nghĩa rõ ràng."
-    ],
-    "keywords": [
-      "tính trừu tượng ",
-      "abstraction"
-    ],
-    "title": "Tính trừu tượng",
-    "label": "abstraction"
-  },{
-    "messageContent": [
-      "Tính kế thừa (inheritance) cho phép kế thừa, tái sử dụng phương thức, thuộc tính của lớp cha. Lớp kế thừa được gọi là lớp con, nó sẽ thừa hưởng những gì lớp cha có và cho phép.",
-      "https://i.postimg.cc/c4WHVKZr/keThua.jpg",
-      "Ví dụ như hình chúng ta có Lớp cha Con vật chứa thuộc tính chiều cao và cân nặng. Các lớp con kế thừa những thuộc tính này, vì thế các lớp con chó, con mèo, con chuột cũng sẽ ngầm định là có các thuộc tính như chiều cao và cân nặng."
-    ],
-    "keywords": [
-      "tính kế thừa ",
-      "inheritance"
-    ],
-    "title": "Tính kế thừa",
-    "label": "inheritance"
-  },{
-    "messageContent": [
-      "Tính đa hình (polymorphism) có thể nói luôn tồn tại song song với tính kế thừa. Khi có nhiều lớp con kế thừa lớp cha nhưng có những tính chất khác nhau cũng gọi là đa hình, hoặc những tác vụ trong cùng một đối tượng được thể hiện nhiều cách khác nhau cũng gọi là đa hình. Tính đa hình là kết quả tất yếu khi ta phát triển khả năng kế thừa và nâng cấp chương trình.",
-      "https://i.postimg.cc/9Qzqn5X0/truu-Tuong.jpg",
-      "Ví dụ cùng là phương thức TinhChuVi nhưng Hình vuông lại có cách tính khác và hình tròn có cách tính khác."
-    ],
-    "keywords": [
-      "tính đa hình ",
-      "polymorphism"
-    ],
-    "title": "Tính đa hình",
-    "label": "polymorphism"
-  },{
-    "messageContent": [
-      "Có nhiều ngôn ngữ hỗ trợ lập trình hướng đối tượng hiện nay, điển hình trong đó có: Java, C#, C++, JavaScript, Python, PHP, Dart, Perl,..."
-    ],
-    "keywords": [
-      "ngôn ngữ hướng đối tượng"
-    ],
-    "title": "Ngôn ngữ lập trình",
-    "label": "langCode"
-  },{
-    "messageContent": [
-      "Đây là phần test ",
-      "https://i.postimg.cc/V65g78cf/42109-Kawasaki-Ninja-H2-R-009.jpg"
-    ],
-    "keywords": [
-      "test"
-    ],
-    "title": "test",
-    "label": "test"
-  } 
-]
+[{
+  "messageContent": [
+    "Xin lỗi cái này mình không biết mong bạn thông cảm, mình sẽ cải thiện để thông minh hơn."
+  ],
+  "keywords": [
+    ""
+  ],
+  "title": "Bot không biết",
+  "label": "dontknow"
+},{
+  "messageContent": [
+    "Chào bạn mình là chatbot hỗ trợ học lập trình hướng đối tượng. Mình thông minh lắm, hi vọng mình giúp được bạn."
+  ],
+  "keywords": [
+    "hello",
+    "hi",
+    "xin chao",
+    "xin chào",
+    "chao",
+    "chào",
+    "hey"
+  ],
+  "title": "Xin chào",
+  "label": "wellcome"
+},{
+  "messageContent": [
+    "Private là một trong những phạm vi truy cập trong OOP. Các phần tử được khai báo private chỉ được truy xuất thông qua class (lớp) chứa nó."
+  ],
+  "keywords": [
+    "private",
+    "riêng tư",
+    "phạm vi private"
+  ],
+  "title": "Khái niệm Private",
+  "label": "private"
+},{
+  "messageContent": [
+    "Public là một trong những phạm vi truy cập trong OOP. Các phần tử được khai báo public thì được truy xuất ở mọi nơi bao gồm trong class (lớp) và ngoài class."
+  ],
+  "keywords": [
+    "public",
+    "công cộng",
+    "công khai",
+    "phạm vi public"
+  ],
+  "title": "Khái niệm Public",
+  "label": "public"
+},{
+  "messageContent": [
+    "Protected là một trong những phạm vi truy cập trong OOP. Các phần tử được khai báo protected thì được truy xuất thông qua lớp chứa nó và lớp con của nó."
+  ],
+  "keywords": [
+    "protected",
+    "bảo vệ",
+    "phạm vi protected"
+  ],
+  "title": "Khái niệm Protected",
+  "label": "protected"
+},{
+  "messageContent": [
+    "Lập trình hướng đối tượng (Object Oriented Programming, viết tắt: OOP) là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code, trừu tượng hóa các đối tượng thực tế trong cuộc sống."
+  ],
+  "keywords": [
+    "oop",
+    "lập trình hướng đối tượng",
+    "hướng đối tượng"
+  ],
+  "title": "Khái niệm OOP",
+  "label": "defineOOP"
+},{
+  "messageContent": [
+    "Đối tượng (Object) có thể là con người, điện thoại, máy tính, bạn và tôi... và điểm chung là đều gồm 2 thành phần chính là:  Thuộc tính (Attribute): là những thông tin, đặc điểm của đối tượng. Phương thức (Method): là những hành động mà đối tượng có thể thực hiện.",
+    "Đối tượng được khai báo như vầy: \n[tên class] [tên đối tượng];",
+    "https://i.postimg.cc/kGLFKvSh/object.jpg",
+    "Với Box là tên class, còn box1 là tên đối tượng. ok hong!"
+  ],
+  "keywords": [
+    "object",
+    "đối tượng"
+  ],
+  "title": "Đối tượng là gì?",
+  "label": "defineObject"
+},{
+  "messageContent": [
+    "Ví dụ chúng ta có đối tượng \"Con người\" =>  Thuộc tính sẽ bao gồm: chiều cao, cân nặng, trình độ học vấn,... Phương thức sẽ bao gồm: ăn, uống, chạy, nhảy,... ",
+    "Ví dụ chúng ta có đối tượng \"Yasuo\" =>  Thuộc tính sẽ bao gồm: sát thương vật lý, sát thương phép, giáp, kháng phép,... Phương thức sẽ bao gồm: di chuyển, xuất chiêu tường gió, trăn trối kẻ địch, ks,...",
+    "Ví dụ chúng ta có đối tượng \"Laptop\" => Thuộc tính sẽ bao gồm: tên máy, dung lượng ram, tên cpu,... Phương thức sẽ bao gồm: khởi động, tắt máy, diệt virus,..."
+  ],
+  "keywords": [
+    "example object, ví dụ đối tượng"
+  ],
+  "title": "Ví dụ đối tượng",
+  "label": "exampleObject"
+},{
+  "messageContent": [
+    "Tính đóng gói (encapsulation) không cho phép người dùng trực tiếp tác động đến dữ liệu bên trong đối tượng mà phải thông qua các phương thức mà đối tượng cung cấp nhằm đảm bảo tính toàn vẹn của đối tượng.",
+    "https://i.postimg.cc/bJnZXWJh/dongGoi.jpg",
+    "Ví dụ như lớp Hình vuông thuộc tính cạnh được đặt private (riêng tư) vì thế không thể truy cập hay thay đổi này trực tiếp từ bên ngoài. Chỉ có thể sử dụng thuộc tính cạnh bằng các phương thức được định nghĩa nội bộ trong lớp như: phương thức getCanh() sẽ trả về giá trị của cạnh, phương thức setCanh() sẽ đặt lại giá trị của cạnh."
+  ],
+  "keywords": [
+    "tính đóng gói",
+    "encapsulation"
+  ],
+  "title": "tính đóng gói",
+  "label": "encapsulation"
+},{
+  "messageContent": [
+    "Tính trừu tượng (abstraction) chỉ ra tính năng của người dùng, các khái niệm được định nghĩa trong quá trình phát triển, bỏ qua những chi tiết triển khai bên trong. Tính trừu tượng cho phép người lập trình tập trung cốt lõi cần thiết của đối tượng thay vì quan tâm sự phức tạp bên trong hoặc cách nó hoạt động.",
+    "https://i.postimg.cc/9Qzqn5X0/truu-Tuong.jpg",
+    "Ví dụ như hình chúng ta có lớp Hình là một lớp trừu tượng và phương thức TinhChuVi không có định nghĩa cụ thể nhưng với 2 lớp con của nó thì được định nghĩa rõ ràng."
+  ],
+  "keywords": [
+    "tính trừu tượng",
+    "abstraction"
+  ],
+  "title": "Tính trừu tượng",
+  "label": "abstraction"
+},{
+  "messageContent": [
+    "Tính kế thừa (inheritance) cho phép kế thừa, tái sử dụng phương thức, thuộc tính của lớp cha. Lớp kế thừa được gọi là lớp con, nó sẽ thừa hưởng những gì lớp cha có và cho phép.",
+    "https://i.postimg.cc/c4WHVKZr/keThua.jpg",
+    "Ví dụ như hình chúng ta có Lớp cha Con vật chứa thuộc tính chiều cao và cân nặng. Các lớp con kế thừa những thuộc tính này, vì thế các lớp con chó, con mèo, con chuột cũng sẽ ngầm định là có các thuộc tính như chiều cao và cân nặng."
+  ],
+  "keywords": [
+    "tính kế thừa",
+    "inheritance"
+  ],
+  "title": "Tính kế thừa",
+  "label": "inheritance"
+},{
+  "messageContent": [
+    "Tính đa hình (polymorphism) có thể nói luôn tồn tại song song với tính kế thừa. Khi có nhiều lớp con kế thừa lớp cha nhưng có những tính chất khác nhau cũng gọi là đa hình, hoặc những tác vụ trong cùng một đối tượng được thể hiện nhiều cách khác nhau cũng gọi là đa hình. Tính đa hình là kết quả tất yếu khi ta phát triển khả năng kế thừa và nâng cấp chương trình.",
+    "https://i.postimg.cc/9Qzqn5X0/truu-Tuong.jpg",
+    "Ví dụ cùng là phương thức TinhChuVi nhưng Hình vuông lại có cách tính khác và hình tròn có cách tính khác."
+  ],
+  "keywords": [
+    "tính đa hình",
+    "tính đa thể",
+    "polymorphism"
+  ],
+  "title": "Tính đa hình",
+  "label": "polymorphism"
+},{
+  "messageContent": [
+    "Có nhiều ngôn ngữ hỗ trợ lập trình hướng đối tượng hiện nay, điển hình trong đó có: Java, C#, C++, JavaScript, Python, PHP, Dart, Perl,..."
+  ],
+  "keywords": [
+    "ngôn ngữ hướng đối tượng"
+  ],
+  "title": "Ngôn ngữ lập trình",
+  "label": "langCode"
+},{
+  "messageContent": [
+    "Phương pháp phát triển hướng đối tượng cho phép chúng ta chia sẻ các thông tin trong ứng dụng, tái sử dụng các đoạn mã, dễ dàng tạo ra sản phẩm mới dựa trên các lớp đối tượng đã xây dựng.",
+    "Tính kế thừa trong lập trình hướng đối tượng góp phần lớn thúc đẩy việc tái sử dụng."
+  ],
+  "keywords": [
+    "tính tái sử dụng"
+  ],
+  "title": "Tái sử dụng",
+  "label": "reuse"
+},{
+  "messageContent": [
+    "Đây là phần test",
+    "https://i.postimg.cc/V65g78cf/42109-Kawasaki-Ninja-H2-R-009.jpg"
+  ],
+  "keywords": [
+    "test"
+  ],
+  "title": "test",
+  "label": "test"
+},{
+  "messageContent": [
+    "Lớp (class) gọi tắt của \"nhóm các đối tượng\" là nhóm của các đối tượng có cùng thuộc tính, có hành vi như nhau và cũng như các mối quan hệ như nhau. Ví dụ như: lớp người, lớp động vật, cây cối,...",
+    "Mỗi một đối tượng được gọi là một trường hợp hay còn được gọi là thể hiện (instance) của lớp.",
+    "Có thể hiểu đơn giản, lớp như là một cái khuôn dùng để đúc ra các đối tượng.",
+    "Lớp trong C++ được khai báo như vầy nè:",
+    "https://i.postimg.cc/Pq6XS3qJ/class.jpg"
+  ],
+  "keywords": [
+    "class",
+    "lớp",
+    "lop"
+  ],
+  "title": "Lớp các đối tượng",
+  "label": "class"
+},{
+  "messageContent": [
+    "Thuộc tính là một đặc tính mà đối tượng cần phải có, khi được mô tả trong một lớp thì được gọi là thuộc tính.",
+    "Mỗi một đối tượng là một trường hợp cụ thể của một lớp, mỗi trường hợp thuộc tính có giá trị riêng, nhưng có chung tên thuộc tính và các hành vi với các trường hợp khác của lớp."
+  ],
+  "keywords": [
+    "thuộc tính",
+    "property",
+    "đăc tính",
+    "thuoc tinh"
+  ],
+  "title": "Thuộc tính",
+  "label": "property"
+},{
+  "messageContent": [
+    "Phương thức là một hành động mà một đối tượng hoặc thực thể cần phải có, khi được mô tả trong một lớp được gọi là một phương thức.",
+    "Ví dụ nha: trong lớp đa giác thi ta có Vẽ, Xóa Di chuyển là các phương thức của lớp này."
+  ],
+  "keywords": [
+    "phương thức",
+    "method",
+    "phuong thuc"
+  ],
+  "title": "Phương thức",
+  "label": "method"
+},{
+  "messageContent": [
+    "Thành viên của lớp là các thuộc tính và phương thức được gắn vào lớp đó. Khi thuộc tính hay phương thức thành viên được gọi thì nó tác động lên đối tượng cụ thể chứ không phải lớp của đối tượng đó.",
+    "Để gọi thành viên của một lớp ta dùng dấu chấm \".\" như ví dụ bên dưới",
+    "https://i.postimg.cc/1trYPTLc/object.jpg"
+  ],
+  "keywords": [
+    "member",
+    "thành viên",
+    "thanh vien"
+  ],
+  "title": "Thành viên lớp",
+  "label": "member"
+},{
+  "messageContent": [
+    "Phạm vi truy cập là phạm vi mà dữ liệu như thuộc tính, phương thức hoặc lớp được phép truy cập. Có 3 phạm vi truy cập chính là: public, private và protected.",
+    "\tpublic: các thành phần mang từ khóa này được truy xuất bất kì hàm nào kể cả trong và ngoài lớp.",
+    "\tprivate: các thành phần mang từ khóa này chỉ được truy xuất bên trong phạm vi của lớp chứa nó.",
+    "\tprotected: các thành phần mang từ khóa này chỉ được truy xuất bên trong phạm vi của lớp chứa nó và các lớp con kế thừa từ lớp này.",
+    "https://i.postimg.cc/9f1yh420/phamvitruycap.jpg"
+  ],
+  "keywords": [
+    "phạm vi truy xuất",
+    "phạm vi truy cập"
+  ],
+  "title": "Phạm vi truy cập",
+  "label": "access"
+},{
+  "messageContent": [
+    "Đa kế thừa (multiple inheritance) là hiện tượng một lớp con được kế thừa từ nhiều lớp cha",
+    "https://i.postimg.cc/FHZLkLLg/dakethua.jpg",
+    "Như hình trên này ClassC được kế thừa từ hai lớp ClassA và ClassB nên ClassC được thừa hưởng các thuộc tính, phương thức của cả hai class ClassA và ClassB.",
+    "Còn nữa, đa kế thừa cũng dẫn đến vấn đề nhập nhằng tên hàm khi cả hai lớp có hàm trùng tên. Vì thế trong C++ ta dùng toán tử phạm vi để truy cập đúng hàm mà ta cần.",
+    "https://i.postimg.cc/vB3gpCWV/multimethod.jpg",
+    "Bạn có thể xem thêm dưới đây thể xem kế thừa là gì nhá:",
+    "[res]kế thừa"
+  ],
+  "keywords": [
+    "đa kế thừa",
+    "đa thừa kế",
+    "multiple inheritance"
+  ],
+  "title": "Đa kế thừa",
+  "label": "mulInheritance"
+},{
+  "messageContent": [
+    "C# (C Sharp, đọc là \"xi-sáp\") là một ngôn ngữ lập trình hướng đối tượng đa năng vô cùng mạnh mẽ được phát triển bởi Microsoft, C# là phần khởi đầu cho kế hoạch .NET của họ. Microsoft phát triển C# dựa trên C++ và Java. C# được miêu tả là ngôn ngữ có được sự cân bằng giữa C++, Visual Basic, Delphi và Java. Xem link sau để biết thêm chi tiết nha:",
+    "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)"
+  ],
+  "keywords": [
+    "ngôn ngữ c#",
+    "ngôn ngữ c sharp"
+  ],
+  "title": "Ngôn ngữ lập trình C#",
+  "label": "langCsharp"
+},{
+  "messageContent": [
+    "Java (phiên âm Tiếng Việt: \"Gia-va\") là một ngôn ngữ lập trình hướng đối tượng (OOP) và dựa trên các lớp (class). Khác với phần lớn ngôn ngữ lập trình thông thường, thay vì biên dịch mã nguồn thành mã máy hoặc thông dịch mã nguồn khi chạy, Java được thiết kế để biên dịch mã nguồn thành bytecode, bytecode sau đó sẽ được môi trường thực thi (runtime environment) chạy.",
+    "https://vi.wikipedia.org/wiki/Java_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)"
+  ],
+  "keywords": [
+    "ngôn ngữ Java",
+    "ngôn ngữ java",
+    "java"
+  ],
+  "title": "Ngôn ngữ lập trình Java",
+  "label": "langJava"
+},{
+  "messageContent": [
+    "C++ (C Plus Plus, đọc là \"xi-plus-plus\", IPA: /siː pləs pləs/) là một loại ngôn ngữ lập trình bậc trung (middle-level). Đây là ngôn ngữ lập trình đa năng được tạo ra bởi Bjarne Stroustrup như một phần mở rộng của ngôn ngữ lập trình C, hoặc \"C với các lớp Class\", Ngôn ngữ đã được mở rộng đáng kể theo thời gian và C ++ hiện đại có các tính năng: lập trình tổng quát, lập trình hướng đối tượng, lập trình thủ tục, ngôn ngữ đa mẫu hình tự do có kiểu tĩnh, dữ liệu trừu tượng, và lập trình đa hình, ngoài ra còn có thêm các tính năng, công cụ để thao tác với bộ nhớ cấp thấp. Từ thập niên 1990, C++ đã trở thành một trong những ngôn ngữ thương mại ưa thích và phổ biến của lập trình viên.",
+    "https://vi.wikipedia.org/wiki/C%2B%2B"
+  ],
+  "keywords": [
+    "ngôn ngữ c++",
+    "c++"
+  ],
+  "title": "Ngôn ngữ lập trình C++",
+  "label": "langCplusplus"
+},{
+  "messageContent": [
+    "JavaScript, theo phiên bản hiện hành, là một ngôn ngữ lập trình thông dịch được phát triển từ các ý niệm nguyên mẫu. Ngôn ngữ này được dùng rộng rãi cho các trang web (phía người dùng) cũng như phía máy chủ (với Nodejs). Nó vốn được phát triển bởi Brendan Eich tại Hãng truyền thông Netscape với cái tên đầu tiên Mocha, rồi sau đó đổi tên thành LiveScript, và cuối cùng thành JavaScript. Giống Java, JavaScript có cú pháp tương tự C, nhưng nó gần với Self hơn Java. .js là phần mở rộng thường được dùng cho tập tin mã nguồn JavaScript. Link Wiki nè:",
+    "https://vi.wikipedia.org/wiki/JavaScript"
+  ],
+  "keywords": [
+    "ngôn ngữ js",
+    "ngôn ngữ JavaScript",
+    "javascript"
+  ],
+  "title": "Ngôn ngữ lập trình JavaScript",
+  "label": "langJS"
+},{
+  "messageContent": [
+    "Python là một ngôn ngữ lập trình bậc cao cho các mục đích lập trình đa năng, do Guido van Rossum tạo ra và lần đầu ra mắt vào năm 1991. Python được thiết kế với ưu điểm mạnh là dễ đọc, dễ học và dễ nhớ. Python là ngôn ngữ có hình thức rất sáng sủa, cấu trúc rõ ràng, thuận tiện cho người mới học lập trình. Cấu trúc của Python còn cho phép người sử dụng viết mã lệnh với số lần gõ phím tối thiểu. Vô Wiki để biết thêm chi tiết nha:",
+    "https://vi.wikipedia.org/wiki/Python_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)"
+  ],
+  "keywords": [
+    "ngôn ngữ py",
+    "ngôn ngữ Python",
+    "python"
+  ],
+  "title": "Ngôn ngữ lập trình Python",
+  "label": "langPython"
+},{
+  "messageContent": [
+    "PHP: Hypertext Preprocessor, thường được viết tắt thành PHP là một ngôn ngữ lập trình kịch bản hay một loại mã lệnh chủ yếu được dùng để phát triển các ứng dụng viết cho máy chủ, mã nguồn mở, dùng cho mục đích tổng quát. Nó rất thích hợp với web và có thể dễ dàng nhúng vào trang HTML. Do được tối ưu hóa cho các ứng dụng web, tốc độ nhanh, nhỏ gọn, cú pháp giống C và Java, dễ học và thời gian xây dựng sản phẩm tương đối ngắn hơn so với các ngôn ngữ khác nên PHP đã nhanh chóng trở thành một ngôn ngữ lập trình web phổ biến nhất thế giới.",
+    "https://vi.wikipedia.org/wiki/PHP"
+  ],
+  "keywords": [
+    "ngôn ngữ PHP",
+    "php"
+  ],
+  "title": "Ngôn ngữ lập trình PHP",
+  "label": "langPHP"
+},{
+  "messageContent": [
+    "Dart là một ngôn ngữ lập trình web do Google phát triển. Nó được chính thức công bố tại Hội thảo GOTO ngày 10-12 tháng 10 năm 2011 tại Aarhus. Mục đích của Dart không phải để thay thế JavaScript như là ngôn ngữ kịch bản chính bên trong trình duyệt web, mà là cung cấp sự lựa chọn hiện đại hơn. Vào link này nha:",
+    "https://vi.wikipedia.org/wiki/Dart_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)"
+  ],
+  "keywords": [
+    "ngôn ngữ dart",
+    "dart"
+  ],
+  "title": "Ngôn ngữ lập trình Dart",
+  "label": "langDart"
+}
+,{
+  "messageContent": [
+    "Đa năng hóa hàm (function overloading) dùng để tạo tập hợp các hàm có chung tên và thực hiện cùng một công việc nhưng có danh sách đối số khác nhau. Hàm đa năng thể hiện tính đa thể dưới các hình thái khác nhau.\nKhi gọi hàm tùy vào số lượng và kiểu của các đối số được cung cấp mà bộ biên dịch sẽ xác định hàm nào sẽ được gọi.",
+    "https://i.postimg.cc/QNyFsrMc/ham-Da-Nang.jpg",
+    "Hàm đa năng phải được khai báo cùng phạm vi",
+    "https://i.postimg.cc/Z5nWk5fd/da-Nang-Hamko-Da-Nang.jpg",
+    "Như ví dụ này thì hàm Abs được khai báo trong 2 phạm vi khác nhau do đó không phải là hàm đa năng.\nNgoài ra, một số hàm đa năng không mang tính đa năng:",
+    "Hàm đa năng phải được khai báo trong cùng một phạm vi truy xuất, nếu không sẽ có vấn đề trong việc gọi hàm.",
+    "https://i.postimg.cc/qvQbDjNL/ko-Da-Nang1.jpg",
+    "Không định nghĩa hàm đa năng cùng tham số đã được định nghĩa, dù cho khác tên tham số. Vì nó không có sự khác biệt.",
+    "https://i.postimg.cc/tJ37trXd/ko-Da-Nang2.jpg",
+    "Không định nghĩa hàm đa năng khác kiểu trả về. Vì đối với hàm đa năng bộ biên dịch không xét đến kiểu trả về của các hàm.",
+    "https://i.postimg.cc/WzYp7xBk/ko-Da-Nang3.jpg",
+    "Các trường hợp còn lại là hàm đa năng nhe."
+  ],
+  "keywords": [
+    "hàm đa năng",
+    "đa năng hóa hàm"
+  ],
+  "title": "Hàm đa năng là gì",
+  "label": "defineHamDaNang"
+}
+,{
+  "messageContent": [
+    "Hàm đa năng giúp chương trình trở nên sáng sủa hơn, truy lỗi dễ dàng hơn.\nDễ bảo trì sửa chữa chương trình.\nHàm đa năng giúp chúng ta tối ưu code hơn tránh trường hợp như thế này :) :",
+    "https://i.postimg.cc/CKWs16SK/vi-Du-Loi-Ich-Ham-Da-Nang.jpg"
+  ],
+  "keywords": [
+    "lợi ích hàm đa năng",
+    "lợi ích đa năng hóa hàm"
+  ],
+  "title": "Lợi ích hàm đa năng",
+  "label": "loiIchHamDaNang"
+}
+,{
+  "messageContent": [
+    "https://i.postimg.cc/xjXVH5Gr/ham-Ban-La-Gi.jpg",
+    "https://i.postimg.cc/Nfb8c6VM/tinh-Chatham-Ban.jpg",
+    "Ví dụ nè",
+    "https://i.postimg.cc/kMTZjbcQ/vi-Du-Ham-Ban.png"
+  ],
+  "keywords": [
+    "hàm bạn là gì",
+    "hàm bạn",
+    "friend function"
+  ],
+  "title": "Hàm bạn là gì và ví dụ",
+  "label": "defineHamBan"
+},{
+  "messageContent": [
+      "https://i.postimg.cc/mZzGvj5L/lopBan.jpg",
+      "https://i.postimg.cc/j2dvrMss/vi-Du-Lop-Ban.jpg"
+  ],
+  "keywords": [
+    "lớp bạn là gì",
+    "lớp bạn",
+    "friend class"
+  ],
+  "title": "Lớp bạn là gì và ví dụ",
+  "label": "defineLopBan"
+},{
+  "messageContent": [
+      "https://i.postimg.cc/wMqfJv52/nguyen-Tac-Class1.jpg",
+      "https://i.postimg.cc/7hNLsB2D/nguyen-Tac-Class2.jpg",
+      "https://i.postimg.cc/xTys5LpR/nguyen-Tac-Class3.jpg",
+      "https://i.postimg.cc/FsV4Sdyt/nguyen-Tac-Class4.jpg",
+      "https://i.postimg.cc/gc6RGdvL/nguyen-Tac-Class5.jpg",
+      "Trong mọi trường hợp, nên có phương thức thiết lập (Constructor) để khởi động đối tượng.\nNên có phương thức thiết lập có khả năng tự khởi động không cần tham số",
+      "Nếu đối tượng có nhu cầu cấp phát tài nguyên thì phải có phương thức thiết lập, copy constructor để khởi động đối tượng bằng đối tượng cùng kiểu và có destructor để dọn dẹp.\nNếu đối tượng đơn giản không cần tài nguyên riêng -> Không cần copy constructor và destructor"
+  ],
+  "keywords": [
+    "nguyên tắc xây dựng lớp",
+    "xây dựng class",
+    "nguyên tắc class"
+  ],
+  "title": "Nguyên tắc xây dựng lớp",
+  "label": "nguyentacClass"
+},{
+  "messageContent": [
+    "hihi",
+    "Cười gì! Bạn có biết oop là gì không?",
+    "[res]oop"
+  ],
+  "keywords": [
+    ""
+  ],
+  "title": "Cười",
+  "label": "laugh"
+}]
