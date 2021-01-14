@@ -335,18 +335,6 @@
   },
   {
     "messageContent": [
-      "hihi",
-      "Cười gì! Bạn có biết oop là gì không?",
-      "[res]oop"
-    ],
-    "keywords": [
-      ""
-    ],
-    "title": "Cười",
-    "label": "laugh"
-  },
-  {
-    "messageContent": [
       "C# (C Sharp, đọc là \"xi-sáp\") là một ngôn ngữ lập trình hướng đối tượng đa năng vô cùng mạnh mẽ được phát triển bởi Microsoft, C# là phần khởi đầu cho kế hoạch .NET của họ. Microsoft phát triển C# dựa trên C++ và Java. C# được miêu tả là ngôn ngữ có được sự cân bằng giữa C++, Visual Basic, Delphi và Java. Xem link sau để biết thêm chi tiết nha:",
       "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)"
     ],
