@@ -399,4 +399,60 @@
   ],
   "label": "nguyentacClass"
 }
+,{
+  "dataTraining": [
+    "phép gán đối tượng",
+    "gán đối tượng",
+    "gan doi tuong",
+    "phep gan doi tuong"
+  ],
+  "label": "ganDoiTuong"
+}
+,{
+  "dataTraining": [
+    "phương thức thiết lập",
+    "phương thức khởi tạo",
+    "phương thức thiet lap",
+    "phuong thuc khoi tao",
+    "constructor",
+    "contructor"
+  ],
+  "label": "constuctor"
+}
+,{
+  "dataTraining": [
+    "phương thức hủy bỏ",
+    "phương thức hủy",
+    "phuong thuc huy bo",
+    "destructor",
+    "detructor"
+  ],
+  "label": "destructor"
+}
+,{
+  "dataTraining": [
+    "phương thức get",
+    "get method",
+    "phuong thuc get",
+    "get",
+    "truy vấn",
+    "phương thưc truy vấn",
+    "phuong thuc truy van",
+    "truy van"
+  ],
+  "label": "getMethod"
+}
+,{
+  "dataTraining": [
+    "phương thức set",
+    "set method",
+    "phuong thuc set",
+    "set",
+    "cập nhật",
+    "phương thưc cập nhật",
+    "phuong thuc cap nhat",
+    "cap nhat"
+  ],
+  "label": "setMethod"
+}
 ]

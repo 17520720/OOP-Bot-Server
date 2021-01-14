@@ -422,4 +422,68 @@
   ],
   "title": "Cười",
   "label": "laugh"
-}]
+},{
+  "messageContent": [
+      "https://i.postimg.cc/mrWrDrCm/gan-Doi-Tuong.jpg"
+  ],
+  "keywords": [
+    "gán đối tượng",
+    "đối tượng"
+  ],
+  "title": "Phép gán đối tượng",
+  "label": "ganDoiTuong"
+},{
+  "messageContent": [
+      "https://i.postimg.cc/tgD7MjnD/phuong-Thuc-Khoi-Tao.jpg",
+      "Ví dụ về phương thức khởi tạo nè!. Khi chạy chương trình này sẽ xuất hiện lỗi nha. Vì trong hàm main chúng ta có khởi tạo một đối tượng Point(4) nhưng chúng ta chỉ thiết lập 2 cách để khởi tạo đối tượng là Point() và Point(ox, oy) thôi",
+      "https://i.postimg.cc/PrsXgp63/vi-Du-PTKhoi-Tao.jpg",
+      "https://i.postimg.cc/8cMhsmHj/phuong-Thuc-Khoi-Tao2.jpg",
+      "https://i.postimg.cc/d0GvH74G/phuong-Thuc-Khoi-Tao3.jpg"
+  ],
+  "keywords": [
+    "phương thức",
+    "khởi tạo"
+  ],
+  "title": "Phương thức khởi tạo",
+  "label": "constuctor"
+},{
+  "messageContent": [
+      "https://i.postimg.cc/mgwtd5kb/phuong-Thuc-Huy.jpg",
+      "https://i.postimg.cc/L6QWzHBR/phuong-Thuc-Huy2.jpg",
+      "https://i.postimg.cc/Jnzx4zPS/vi-Du-PTHuy.jpg"
+  ],
+  "keywords": [
+    "phương thức",
+    "hủy bỏ"
+  ],
+  "title": "Phương thức hủy bỏ",
+  "label": "destructor"
+},{
+  "messageContent": [
+      "https://i.postimg.cc/xdVY7c9G/phuong-Thuc-Get0.jpg",
+      "https://i.postimg.cc/4Nh8hjPF/phuong-Thuc-Get.jpg",
+      "Ví dụ phương thức truy vấn nè vừa lòng chưa!",
+      "https://i.postimg.cc/MpdN0HvK/vi-Du-PTGet.jpg"
+  ],
+  "keywords": [
+    "get",
+    "phương thức",
+    "truy vấn"
+  ],
+  "title": "Phương thức get",
+  "label": "getMethod"
+},{
+  "messageContent": [
+      "https://i.postimg.cc/13w4fxtH/phuong-Thuc-Set.jpg",
+      "Thêm cho cái ví dụ nè!",
+      "https://i.postimg.cc/PrmPqsNM/vi-Du-PTSet.jpg"
+  ],
+  "keywords": [
+    "set",
+    "phương thức",
+    "cập nhật"
+  ],
+  "title": "Phương thức set",
+  "label": "setMethod"
+}
+]

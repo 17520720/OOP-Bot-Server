@@ -45,7 +45,7 @@ mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.n
      }
      else {
           console.log("Connected Successfully!");
-          //insertData();
+          insertData();
      }
 });
 
@@ -180,11 +180,11 @@ app.get("/api/training", function(req, res){
 app.post("/api/learn", function(req, res){
      console.log(req.query.message);
      //test
+     var userMess = (req.query.message);
 
-     var userMess = req.query.message;
+     //var userMess = req.query.message.trim().toLowerCase();
 
-     userMess.trim();
-     userMess.toLowerCase();
+     console.log(userMess);
 
      var _label = classifier.classify(userMess);
      console.log(_label);
@@ -205,9 +205,9 @@ async function insertData() {
      let train = JSON.parse(trainData);
      console.log("Train data is parsed!");
 
-     await db.collection('botmessages').deleteMany({});
-     await db.collection('trainingdatas').deleteMany({});
+     // await db.collection('botmessages').deleteMany({});
+     // await db.collection('trainingdatas').deleteMany({});
 
-     BotMessage.insertMany(botMesses);
-     TrainingData.insertMany(train);
+     // BotMessage.insertMany(botMesses);
+     // TrainingData.insertMany(train);
 }
