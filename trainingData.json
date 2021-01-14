@@ -1,103 +1,218 @@
 [
-    {
+  {
     "dataTraining": [
+      "data training",
+      "toán vĩ mô",
+      "toán vi mô",
+      "cộng thêm xác suất",
+      "need a database",
+      "network Access",
+      "LINKED REALM APP",
+      "upgrade to a dedicated cluster",
+      "app admin console",
+      "Create cross-platform applications",
+      "Build dashboards and charts",
+      "The first 1 GB of monthly data transfer is FREE.",
+      "response time may vary",
+      "advice on data best practices",
+      "Proactive customer success management",
+      "charges are based on the greater"
+    ],
+    "label": "dontknow"
+  },
+
+  {
+    "dataTraining": [
+      "hello",
+      "hi",
+      "xin chao",
+      "xin chào",
+      "chao",
+      "chào",
+      "hey",
+      "how are you",
+      "ê"
+    ],
+    "label": "wellcome"
+  },
+
+  {
+    "dataTraining": [
+      "hihi",
+      "haha",
+      "hihihi",
+      "hahaha"
+    ],
+    "label": "laugh"
+  },
+
+  {
+    "dataTraining": [
+      "phạm vi truy xuất",
+      "phạm vi truy cập",
+      "pham vi truy xuat",
+      "pham vi truy cap",
+      "access"
+    ],
+    "label": "access"
+  },
+
+  {
+    "dataTraining": [
+      "private",
       "khái niệm private ",
-      "phạm vi truy xuất private trong hướng đối tượng ",
-      "private trong oop là gì?"
+      "phạm vi truy xuất private hướng đối tượng ",
+      "private oop là gì?"
     ],
     "label": "private"
-  },{
+  },
+  
+  {
     "dataTraining": [
+      "public",
       "khái niệm public ",
-      "public trong oop là gì ",
-      "phạm vi truy xuất public trong hướng đối tượng"
+      "public oop là gì ",
+      "phạm vi truy xuất public hướng đối tượng"
     ],
     "label": "public"
-  },{
+  },
+
+  {
     "dataTraining": [
-      "nêu ví dụ về đối tượng trong oop ",
-      "nêu ví dụ về đối tượng trong lập trình hướng đối tượng ",
-      "ví dụ về đối tượng ",
-      "ví dụ về object"
+      "protected",
+      "khái niệm protected ",
+      "protected oop là gì ",
+      "phạm vi truy xuất protected hướng đối tượng"
+    ],
+    "label": "protected"
+  },
+  
+
+  {
+    "dataTraining": [
+      "nêu ví dụ đối tượng oop ",
+      "nêu ví dụ đối tượng lập trình hướng đối tượng ",
+      "ví dụ đối tượng ",
+      "ví dụ object"
     ],
     "label": "exampleObject"
-  },{
+  },
+
+  {
+    "dataTraining": [
+      "Hãy nêu đặc tính lập trình hướng đối tượng",
+      "các đặc tính oop",
+      "tính chất lập trình hướng đối tượng",
+      "tính chất oop"
+    ],
+    "label": "specificity"
+  },
+  
+  {
     "dataTraining": [
       "tính đóng gói là gì? ",
-      "encapsulation là gì trong oop?",
+      "encapsulation là gì oop?",
       "encapsulation lập trình hướng đối tượng ",
-      "đóng gói trong lập trình hướng đối tượng ",
+      "đóng gói  lập trình hướng đối tượng ",
       "đóng gói",
       "tính đóng gói",
-      "tính đóng gói trong lập trình hướng đối tượng",
+      "tính đóng gói  lập trình hướng đối tượng",
       "đóng gói"
     ],
     "label": "encapsulation"
-  },{
+  },
+  
+  {
     "dataTraining": [
       "trừu tượng là gì? ",
-      "abstraction là gì trong oop? ",
+      "abstraction là gì  oop? ",
       "abstraction lập trình hướng đối tượng ",
-      "tính trừu tượng trong lập trình hướng đối tượng ",
-      "trừu tượng trong oop ",
+      "tính trừu tượng  lập trình hướng đối tượng ",
+      "trừu tượng  oop ",
       "tính trừu tượng",
       "trừu tượng"
     ],
     "label": "abstraction"
-  },{
+  },
+  
+  {
     "dataTraining": [
       "khái niệm oop ",
       "oop là gì ",
-      "oop ",
+      "oop",
       "lập trình hướng đối tượng là gì? ",
       "lập trình hướng đối tượng ",
       "khái niệm lập trình hướng đối tượng"
     ],
     "label": "defineOOP"
-  },{
+  },
+  
+  {
     "dataTraining": [
       "object là gì? ",
       "object ",
       "định nghĩa object ",
       "đối tượng là gì? ",
-      "đối tượng trong oop ",
-      "đối tượng trong lập trình hướng đối tượng ",
-      "object trong lập trình hướng đối tượng ",
-      "object trong oop ",
+      "đối tượng oop ",
+      "đối tượng lập trình hướng đối tượng ",
+      "object lập trình hướng đối tượng ",
+      "object oop ",
       "đối tượng"
     ],
     "label": "defineObject"
-  },{
+  },
+  
+  {
     "dataTraining": [
       "tính kế thừa ",
       "kế thừa",
       "kế thừa là gì? ",
-      "kế thừa trong oop ",
-      "tính kế thừa trong lập trình hướng đối tượng ",
+      "kế thừa oop ",
+      "tính kế thừa lập trình hướng đối tượng ",
       "inheritance ",
-      "inheritance trong oop ",
-      "inheritance trong hướng đối tượng"
+      "inheritance oop ",
+      "inheritance hướng đối tượng"
     ],
     "label": "inheritance"
-  },{
+  },
+  
+  {
     "dataTraining": [
       "tính đa hình ",
-      "đa hình trong oop ",
-      "tính đa hình trong lập trình hướng đối tượng ",
+      "đa hình oop ",
+      "tính đa hình lập trình hướng đối tượng ",
       "đa hình ",
       "đa hình là gì? ",
       "polymorphism ",
-      "polymorphism là gì trong oop ",
-      "polymorphism trong hướng đối tượng"
+      "polymorphism là gì oop ",
+      "polymorphism hướng đối tượng"
     ],
     "label": "polymorphism"
-  },{
+  },
+  
+  {
+    "dataTraining": [
+      "tính tái sử dụng ",
+      "tái sử dụng oop ",
+      "tái sử dụng lập trình hướng đối tượng ",
+      "tái sử dụng ",
+      "reusability ",
+      "reuse ",
+      "reusability oop ",
+      "reusability hướng đối tượng"
+    ],
+    "label": "reuse"
+  },
+
+  {
     "dataTraining": [
       "test ",
       "test test"
     ],
     "label": "test"
-  },{
+  },
+  
+  {
     "dataTraining": [
       "các ngôn ngữ lập trình hướng đối tượng ",
       "ngôn ngữ lập trình hướng đối tượng phổ biến hiện nay ",
@@ -108,4 +223,83 @@
       "ngôn ngữ oop phổ biến"
     ],
     "label": "langCode"
-  }]
+  },
+
+  {
+    "dataTraining": [
+      "lớp lập trình hướng đối tượng",
+      "class lập trình hướng đối tượng",
+      "lớp oop là gì?",
+      "class oop là gì?",
+      "class",
+      "lớp",
+      "lớp các đối tượng",
+      "khai báo lớp",
+      "cách khai báo lớp",
+      "tạo lớp",
+      "tạo lớp như thế nào",
+      "khai báo class",
+      "cách khai báo class",
+      "tạo class",
+      "tạo class như thế nào"
+    ],
+    "label": "class"
+  },
+
+  {
+    "dataTraining": [
+      "thuộc tính",
+      "thuoc tinh",
+      "property oop",
+      "thuộc tính là gì?",
+      "thuộc tính là gì",
+      "property lập trình hướng đối tượng",
+      "thuộc tính oop",
+      "thuộc tính lập trình hướng đối tượng",
+      "property"
+    ],
+    "label": "property"
+  },
+
+  {
+    "dataTraining": [
+      "phương thức",
+      "phuong thuc",
+      "method oop",
+      "phương thức là gì?",
+      "phương thức là gì",
+      "method lập trình hướng đối tượng",
+      "phương thức oop",
+      "phương thức lập trình hướng đối tượng",
+      "method"
+    ],
+    "label": "method"
+  },
+
+  {
+    "dataTraining": [
+      "thành viên",
+      "thanh vien",
+      "thành viên lớp",
+      "thành viên class",
+      "member class",
+      "member lớp"
+    ],
+    "label": "member"
+  }
+
+  ,
+
+  {
+    "dataTraining": [
+      "đa kế thừa",
+      "tính đa kế thừa",
+      "tính đa thừa kế",
+      "đa thừa kế",
+      "da ke thua",
+      "da thua ke",
+      "multiple inheritance"
+    ],
+    "label": "mulInheritance"
+  }
+]

@@ -45,7 +45,7 @@ mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.n
      }
      else {
           console.log("Connected Successfully!");
-          insertData();
+          //insertData();
      }
 });
 
@@ -203,6 +203,10 @@ async function insertData() {
      await db.collection('botmessages').deleteMany({});
      await db.collection('trainingdatas').deleteMany({});
 
-     BotMessage.insertMany(botMesses);
-     TrainingData.insertMany(train);
+     BotMessage.insertMany(botMesses, function() {
+          console.log("inserted botmessage!");
+     });
+     TrainingData.insertMany(train, function() {
+          console.log("inserted trainingdata!");
+     });
 }
