@@ -45,7 +45,7 @@ mongoose.connect('mongodb+srv://admin:0123456543210@cluster0.1kujp.gcp.mongodb.n
      }
      else {
           console.log("Connected Successfully!");
-          //insertData();
+          insertData();
      }
 });
 
@@ -180,8 +180,13 @@ app.get("/api/training", function(req, res){
 app.post("/api/learn", function(req, res){
      console.log(req.query.message);
      //test
+     var userMess = (req.query.message);
 
-     var _label = classifier.classify(req.query.message);
+     //var userMess = req.query.message.trim().toLowerCase();
+
+     console.log(userMess);
+
+     var _label = classifier.classify(userMess);
      console.log(_label);
 
      BotMessage.findOne({label: _label}, function(err, obj){

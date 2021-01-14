@@ -20,7 +20,6 @@
     ],
     "label": "dontknow"
   },
-
   {
     "dataTraining": [
       "hello",
@@ -35,7 +34,6 @@
     ],
     "label": "wellcome"
   },
-
   {
     "dataTraining": [
       "hihi",
@@ -45,7 +43,6 @@
     ],
     "label": "laugh"
   },
-
   {
     "dataTraining": [
       "phạm vi truy xuất",
@@ -56,7 +53,6 @@
     ],
     "label": "access"
   },
-
   {
     "dataTraining": [
       "private",
@@ -66,7 +62,6 @@
     ],
     "label": "private"
   },
-  
   {
     "dataTraining": [
       "public",
@@ -76,7 +71,6 @@
     ],
     "label": "public"
   },
-
   {
     "dataTraining": [
       "protected",
@@ -86,8 +80,6 @@
     ],
     "label": "protected"
   },
-  
-
   {
     "dataTraining": [
       "nêu ví dụ đối tượng oop ",
@@ -97,7 +89,6 @@
     ],
     "label": "exampleObject"
   },
-
   {
     "dataTraining": [
       "Hãy nêu đặc tính lập trình hướng đối tượng",
@@ -107,7 +98,6 @@
     ],
     "label": "specificity"
   },
-  
   {
     "dataTraining": [
       "tính đóng gói là gì? ",
@@ -121,7 +111,6 @@
     ],
     "label": "encapsulation"
   },
-  
   {
     "dataTraining": [
       "trừu tượng là gì? ",
@@ -134,7 +123,6 @@
     ],
     "label": "abstraction"
   },
-  
   {
     "dataTraining": [
       "khái niệm oop ",
@@ -146,7 +134,6 @@
     ],
     "label": "defineOOP"
   },
-  
   {
     "dataTraining": [
       "object là gì? ",
@@ -161,7 +148,6 @@
     ],
     "label": "defineObject"
   },
-  
   {
     "dataTraining": [
       "tính kế thừa ",
@@ -175,7 +161,6 @@
     ],
     "label": "inheritance"
   },
-  
   {
     "dataTraining": [
       "tính đa hình ",
@@ -189,7 +174,6 @@
     ],
     "label": "polymorphism"
   },
-  
   {
     "dataTraining": [
       "tính tái sử dụng ",
@@ -203,7 +187,6 @@
     ],
     "label": "reuse"
   },
-
   {
     "dataTraining": [
       "test ",
@@ -211,7 +194,6 @@
     ],
     "label": "test"
   },
-  
   {
     "dataTraining": [
       "các ngôn ngữ lập trình hướng đối tượng ",
@@ -224,7 +206,6 @@
     ],
     "label": "langCode"
   },
-
   {
     "dataTraining": [
       "lớp lập trình hướng đối tượng",
@@ -245,7 +226,6 @@
     ],
     "label": "class"
   },
-
   {
     "dataTraining": [
       "thuộc tính",
@@ -260,7 +240,6 @@
     ],
     "label": "property"
   },
-
   {
     "dataTraining": [
       "phương thức",
@@ -275,7 +254,6 @@
     ],
     "label": "method"
   },
-
   {
     "dataTraining": [
       "thành viên",
@@ -286,10 +264,7 @@
       "member lớp"
     ],
     "label": "member"
-  }
-
-  ,
-
+  },
   {
     "dataTraining": [
       "đa kế thừa",
@@ -301,5 +276,224 @@
       "multiple inheritance"
     ],
     "label": "mulInheritance"
+  },
+  {
+    "dataTraining": [
+      "Ngôn ngữ lập trình c#",
+      "Ngôn ngữ lập trình c sharp",
+      "Ngôn ngữ lập trình csharp",
+      "Ngôn ngữ c#",
+      "Csharp",
+      "C-sharp",
+      "ngon ngu c#",
+      "ngon ngu lap trinh c#",
+      "ngon ngu lap trinh c sharp"
+    ],
+    "label": "langCsharp"
+  },
+  {
+    "dataTraining": [
+      "Ngôn ngữ lập trình java",
+      "Ngôn ngữ lập trình gia va",
+      "java",
+      "gia va",
+      "ngon ngu java",
+      "ngon ngu lap trinh java"
+    ],
+    "label": "langJava"
+  },
+  {
+    "dataTraining": [
+      "ngôn ngữ lập trình c++",
+      "ngôn ngữ lập trình c cộng cộng",
+      "ngôn ngữ c++",
+      "c++",
+      "c cộng cộng",
+      "ngon ngu c++",
+      "ngon ngu lap trinh C++",
+      "ngon ngu lap trinh c++"
+    ],
+    "label": "langCplusplus"
+  },
+  {
+    "dataTraining": [
+      "Ngôn ngữ lập trình javascript",
+      "Ngôn ngữ javascript",
+      "javascript",
+      "ngon ngu javascript",
+      "ngon ngu lap trinh Javascript"
+    ],
+    "label": "langJS"
+  },
+  {
+    "dataTraining": [
+      "Ngôn ngữ lập trình python",
+      "Ngôn ngữ python",
+      "pyhton",
+      "pythin",
+      "python",
+      "py",
+      "ngon ngu python",
+      "ngon ngu lap trinh Python"
+    ],
+    "label": "langPython"
+  },
+  {
+    "dataTraining": [
+      "Ngôn ngữ lập trình php",
+      "Ngôn ngữ php",
+      "phh",
+      "pph",
+      "php",
+      "ngon ngu php",
+      "ngon ngu lap trinh php"
+    ],
+    "label": "langPHP"
+  },
+  {
+    "dataTraining": [
+      "Ngôn ngữ lập trình dart",
+      "Ngôn ngữ dart",
+      "dark",
+      "dart",
+      "dảt",
+      "ngon ngu dart",
+      "ngon ngu lap trinh dart"
+    ],
+    "label": "langDart"
+  },
+  {
+    "dataTraining": [
+      "hàm đa năng",
+      "đa năng hóa hàm",
+      "ham da nang",
+      "da nang hoa ham",
+      "hàm đa năng là gì",
+      "đa năng hóa hàm là gì",
+      "ham da nang la gi",
+      "da nang hoa ham la gi"
+    ],
+    "label": "defineHamDaNang"
+  },
+  {
+    "dataTraining": [
+      "lợi ích hàm đa năng",
+      "lợi ích đa năng hóa hàm",
+      "loi ich ham da nang",
+      "loi ich da nang hoa ham",
+      "công dụng hàm đa năng",
+      "cong dung ham da nang",
+      "ưu điểm đa năng hóa hàm",
+      "uu diem da nang hoa ham",
+      "tác dụng hàm đa năng",
+      "tac dung ham da nang",
+      "hàm đa năng giúp gì",
+      "ham da nang giup gi",
+      "vì sao nên sử dụng hàm đa năng",
+      "vi sao nen su dung ham da nang"
+    ],
+    "label": "loiIchHamDaNang"
+  },
+  {
+    "dataTraining": [
+      "hàm bạn là gì?",
+      "ví dụ hàm bạn",
+      "friend function là gì",
+      "như thế nào là hàm bạn",
+      "hàm bạn",
+      "friend function",
+      "ham ban",
+      "ham ban la gi",
+      "nhu the nao la ham ban",
+      "vi du ham ban"
+    ],
+    "label": "defineHamBan"
+  },
+  {
+    "dataTraining": [
+      "lớp bạn là gì?",
+      "ví dụ lớp bạn",
+      "friend class là gì",
+      "như thế nào là lớp bạn",
+      "lớp bạn",
+      "friend class",
+      "lop ban",
+      "lop ban la gi",
+      "nhu the nao la lop ban",
+      "vi du lop ban"
+    ],
+    "label": "defineLopBan"
+  },
+  {
+    "dataTraining": [
+      "nguyên tắc xây dựng lớp",
+      "nguyen tac xay dung lop",
+      "lớp có những nguyên tắc nào",
+      "lop co nhung nguyen tac nao",
+      "lưu ý khi xây dựng lớp",
+      "luu y khi xay dung lop",
+      "nguyên tắc lớp",
+      "cách đặt tên class",
+      "cách đặt tên lớp",
+      "cach dat ten class",
+      "cach dat ten lop"
+    ],
+    "label": "nguyentacClass"
+  },
+  {
+    "dataTraining": [
+      "phép gán đối tượng",
+      "gán đối tượng",
+      "gan doi tuong",
+      "phep gan doi tuong"
+    ],
+    "label": "ganDoiTuong"
+  },
+  {
+    "dataTraining": [
+      "phương thức thiết lập",
+      "phương thức khởi tạo",
+      "phương thức thiet lap",
+      "phuong thuc khoi tao",
+      "constructor",
+      "contructor"
+    ],
+    "label": "constuctor"
+  },
+  {
+    "dataTraining": [
+      "phương thức hủy bỏ",
+      "phương thức hủy",
+      "phuong thuc huy bo",
+      "destructor",
+      "detructor"
+    ],
+    "label": "destructor"
+  },
+  {
+    "dataTraining": [
+      "phương thức get",
+      "get method",
+      "phuong thuc get",
+      "get",
+      "truy vấn",
+      "phương thưc truy vấn",
+      "phuong thuc truy van",
+      "truy van"
+    ],
+    "label": "getMethod"
+  },
+  {
+    "dataTraining": [
+      "phương thức set",
+      "set method",
+      "phuong thuc set",
+      "set",
+      "cập nhật",
+      "phương thưc cập nhật",
+      "phuong thuc cap nhat",
+      "cap nhat"
+    ],
+    "label": "setMethod"
   }
 ]
